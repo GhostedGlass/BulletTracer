@@ -7,9 +7,13 @@ The script is built to be integrated into an existing exploit framework, and it 
 ## Features
 
 -> **Neon Bullet Tracers**: The script generates a glowing neon beam when the player shoots, providing a visual representation of the bullet's trajectory.
+
 -> **Fade-Out Effect**: After a few seconds, the tracer fades out over a smooth 2-second transition, creating a dynamic effect.
+
 -> **Raycasting for Trajectory**: Raycasting is used to detect the bullet's trajectory, ensuring the tracer only appears where the bullet would logically hit, avoiding visual clutter.
+
 -> **Toggleable Tracer**: The tracer effect can be toggled on and off using the 'T' key, giving the user control over when to enable or disable the feature.
+
 -> **Collision Handling**: The script ensures that tracers do not interfere with each other by excluding any existing tracers from raycasting checks, preventing visual overlap.
 
 ## How It Works
